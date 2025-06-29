@@ -1,0 +1,42 @@
+.image-gallery img{
+    width:400px;
+    height:800px;
+    border-radius:12px;
+    object-fit: cover;
+    margin: 6px;
+    box-shadow: 0 2px 8px rgba(0,0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+}
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #F9F6F0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+  text-align: center;
+
+}
+
+p{
+    font-family: poppins;
+    font-weight: bold;
+    color: #D2C5B6;
+    text-align: center;
+}
+
+body{
+  background: linear-gradient(145deg, #1A1A1A, #3F2B36, #D48BA0);
+}
